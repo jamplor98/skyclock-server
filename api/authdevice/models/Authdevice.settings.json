@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "authdevice",
+  "info": {
+    "name": "authdevice",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "device_key": {
+      "type": "string"
+    },
+    "emei_num": {
+      "type": "string"
+    },
+    "device": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

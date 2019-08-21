@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/authdevices",
+      "handler": "Authdevice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/authdevices/count",
+      "handler": "Authdevice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/authdevices/:_id",
+      "handler": "Authdevice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/authdevices",
+      "handler": "Authdevice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/authdevices/:_id",
+      "handler": "Authdevice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/authdevices/:_id",
+      "handler": "Authdevice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

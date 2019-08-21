@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "company",
+  "info": {
+    "name": "company",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "pass": {
+      "type": "string"
+    }
+  }
+}

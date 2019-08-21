@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "timesheet",
+  "info": {
+    "name": "timesheet",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "clock_in": {
+      "type": "date"
+    },
+    "clock_out": {
+      "type": "date"
+    }
+  }
+}

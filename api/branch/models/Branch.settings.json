@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "branch",
+  "info": {
+    "name": "branch",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "branch_name": {
+      "type": "string"
+    },
+    "branch_addr": {
+      "type": "string"
+    }
+  }
+}

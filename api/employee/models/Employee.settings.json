@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "employee",
+  "info": {
+    "name": "employee",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "fname": {
+      "type": "string"
+    },
+    "mname": {
+      "type": "string"
+    },
+    "lname": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "position": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "status": {
+      "type": "string"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "contactno": {
+      "type": "integer"
+    }
+  }
+}
